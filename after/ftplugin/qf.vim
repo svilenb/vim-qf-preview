@@ -1,3 +1,7 @@
+if !has('vim9script') ||  v:version < 900
+    finish
+endif
+
 vim9script
 # ==============================================================================
 # Preview file with quickfix error in a popup window
